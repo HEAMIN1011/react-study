@@ -5,6 +5,11 @@ import Props01 from './components/Props01';
 import State01 from './components/State01';
 import State02 from './components/State02';
 import Practice001 from './practice/Practice001';
+import Props02 from './components/Props02';
+import Quiz002 from './practice/Quiz002';
+import NewsBlog from './newsblog/NewsBlog';
+import Quiz003 from './practice/Quiz003';
+import Practice002 from './practice/practice002';
 
 
 function App() {
@@ -14,7 +19,13 @@ function App() {
   //return <Export01/>;
   //return <State02/>;
   //return <Props01/>;
-  return <Practice001/>;
+  //return <Practice001/>;
+  //return <Props02/>;
+  //return <Quiz002/>;
+  return <NewsBlog/>;
+  //return <Quiz003/>;
+  //return <Practice002/>;
 }
 
 export default App;
+
