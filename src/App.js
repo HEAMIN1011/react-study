@@ -9,7 +9,10 @@ import Props02 from './components/Props02';
 import Quiz002 from './practice/Quiz002';
 import NewsBlog from './newsblog/NewsBlog';
 import Quiz003 from './practice/Quiz003';
-import Practice002 from './practice/practice002';
+import Practice002 from './practice/Practice002';
+import ColorBox from './practice/ColorBox';
+import Quiz004 from './practice/Quiz004';
+import FoodMarket from './foodmarket/FoodMarket';
 
 
 function App() {
@@ -22,9 +25,12 @@ function App() {
   //return <Practice001/>;
   //return <Props02/>;
   //return <Quiz002/>;
-  return <NewsBlog/>;
+  //return <NewsBlog/>;
   //return <Quiz003/>;
   //return <Practice002/>;
+  //return <ColorBox/>;
+  //return <Quiz004/>;
+  return <FoodMarket/>;
 }
 
 export default App;
