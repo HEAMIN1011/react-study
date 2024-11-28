@@ -13,6 +13,7 @@ import Practice002 from './practice/Practice002';
 import ColorBox from './practice/ColorBox';
 import Quiz004 from './practice/Quiz004';
 import FoodMarket from './foodmarket/FoodMarket';
+import FoodCard from './foodmarket/components/FoodCard';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
   //return <ColorBox/>;
   //return <Quiz004/>;
   return <FoodMarket/>;
+  //return <FoodCard/>;
 }
 
 export default App;
