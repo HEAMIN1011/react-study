@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import FoodCard from '../components/FoodCard';
-import banner_bg from '../image/banner_bg.jpg';
+import banner_bg from '../images/banner_bg.jpg';
 
 function Home( {foods} ) {
     return (

@@ -14,6 +14,7 @@ import ColorBox from './practice/ColorBox';
 import Quiz004 from './practice/Quiz004';
 import FoodMarket from './foodmarket/FoodMarket';
 import FoodCard from './foodmarket/components/FoodCard';
+import Detail from './foodmarket/pages/Detail';
 
 
 function App() {
@@ -31,8 +32,9 @@ function App() {
   //return <Practice002/>;
   //return <ColorBox/>;
   //return <Quiz004/>;
-  return <FoodMarket/>;
+  //return <FoodMarket/>;
   //return <FoodCard/>;
+  return <Detail/>;
 }
 
 export default App;
